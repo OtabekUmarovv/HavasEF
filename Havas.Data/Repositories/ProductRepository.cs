@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Havas.Data.Repositories
 {
-    internal class ProductRepository
+    public class ProductRepository
     {
     }
 }
