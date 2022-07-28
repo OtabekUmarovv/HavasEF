@@ -1,0 +1,17 @@
+C:\Users\otaxo\source\repos\Havas\Havas.Data\bin\Debug\net6.0\Havas.Data.deps.json
+C:\Users\otaxo\source\repos\Havas\Havas.Data\bin\Debug\net6.0\Havas.Data.dll
+C:\Users\otaxo\source\repos\Havas\Havas.Data\bin\Debug\net6.0\Havas.Data.pdb
+C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\Havas.Data.csproj.AssemblyReference.cache
+C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\Havas.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\Havas.Data.AssemblyInfoInputs.cache
+C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\Havas.Data.AssemblyInfo.cs
+C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\Havas.Data.csproj.CoreCompileInputs.cache
+C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\Havas.Data.dll
+C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\refint\Havas.Data.dll
+C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\Havas.Data.pdb
+C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\ref\Havas.Data.dll
+C:\Users\otaxo\source\repos\Havas\Havas.Data\bin\Debug\net6.0\Havas.Data.runtimeconfig.json
+C:\Users\otaxo\source\repos\Havas\Havas.Data\bin\Debug\net6.0\Havas.Domain.dll
+C:\Users\otaxo\source\repos\Havas\Havas.Data\bin\Debug\net6.0\Havas.Domain.pdb
+C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\Havas.Data.csproj.CopyComplete
+C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\Havas.Data.genruntimeconfig.cache

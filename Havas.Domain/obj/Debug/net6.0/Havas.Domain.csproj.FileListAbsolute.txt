@@ -1,0 +1,12 @@
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\bin\Debug\net6.0\Havas.Domain.deps.json
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\bin\Debug\net6.0\Havas.Domain.dll
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\bin\Debug\net6.0\Havas.Domain.pdb
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\Havas.Domain.csproj.AssemblyReference.cache
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\Havas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\Havas.Domain.AssemblyInfoInputs.cache
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\Havas.Domain.AssemblyInfo.cs
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\Havas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\Havas.Domain.dll
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\refint\Havas.Domain.dll
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\Havas.Domain.pdb
+C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\ref\Havas.Domain.dll

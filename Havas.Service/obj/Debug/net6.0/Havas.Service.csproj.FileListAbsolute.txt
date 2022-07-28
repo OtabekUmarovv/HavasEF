@@ -1,0 +1,12 @@
+C:\Users\otaxo\source\repos\Havas\Havas.Service\bin\Debug\net6.0\Havas.Service.deps.json
+C:\Users\otaxo\source\repos\Havas\Havas.Service\bin\Debug\net6.0\Havas.Service.dll
+C:\Users\otaxo\source\repos\Havas\Havas.Service\bin\Debug\net6.0\Havas.Service.pdb
+C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\Havas.Service.csproj.AssemblyReference.cache
+C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\Havas.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\Havas.Service.AssemblyInfoInputs.cache
+C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\Havas.Service.AssemblyInfo.cs
+C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\Havas.Service.csproj.CoreCompileInputs.cache
+C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\Havas.Service.dll
+C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\refint\Havas.Service.dll
+C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\Havas.Service.pdb
+C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\ref\Havas.Service.dll
