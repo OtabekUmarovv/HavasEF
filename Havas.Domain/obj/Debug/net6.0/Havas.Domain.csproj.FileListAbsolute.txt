@@ -10,3 +10,15 @@ C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\Havas.Domain.dll
 C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\refint\Havas.Domain.dll
 C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\Havas.Domain.pdb
 C:\Users\otaxo\source\repos\Havas\Havas.Domain\obj\Debug\net6.0\ref\Havas.Domain.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\bin\Debug\net6.0\Havas.Domain.deps.json
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\bin\Debug\net6.0\Havas.Domain.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\bin\Debug\net6.0\Havas.Domain.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\obj\Debug\net6.0\Havas.Domain.csproj.AssemblyReference.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\obj\Debug\net6.0\Havas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\obj\Debug\net6.0\Havas.Domain.AssemblyInfoInputs.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\obj\Debug\net6.0\Havas.Domain.AssemblyInfo.cs
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\obj\Debug\net6.0\Havas.Domain.csproj.CoreCompileInputs.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\obj\Debug\net6.0\Havas.Domain.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\obj\Debug\net6.0\refint\Havas.Domain.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\obj\Debug\net6.0\Havas.Domain.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Domain\obj\Debug\net6.0\ref\Havas.Domain.dll

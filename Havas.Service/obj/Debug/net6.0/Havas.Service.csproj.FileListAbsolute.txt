@@ -10,3 +10,20 @@ C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\Havas.Service.d
 C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\refint\Havas.Service.dll
 C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\Havas.Service.pdb
 C:\Users\otaxo\source\repos\Havas\Havas.Service\obj\Debug\net6.0\ref\Havas.Service.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\bin\Debug\net6.0\Havas.Service.deps.json
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\bin\Debug\net6.0\Havas.Service.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\bin\Debug\net6.0\Havas.Service.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\obj\Debug\net6.0\Havas.Service.csproj.AssemblyReference.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\obj\Debug\net6.0\Havas.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\obj\Debug\net6.0\Havas.Service.AssemblyInfoInputs.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\obj\Debug\net6.0\Havas.Service.AssemblyInfo.cs
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\obj\Debug\net6.0\Havas.Service.csproj.CoreCompileInputs.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\obj\Debug\net6.0\Havas.Service.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\obj\Debug\net6.0\refint\Havas.Service.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\obj\Debug\net6.0\Havas.Service.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\obj\Debug\net6.0\ref\Havas.Service.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\bin\Debug\net6.0\Havas.Data.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\bin\Debug\net6.0\Havas.Domain.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\bin\Debug\net6.0\Havas.Data.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\bin\Debug\net6.0\Havas.Domain.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Service\obj\Debug\net6.0\Havas.Service.csproj.CopyComplete

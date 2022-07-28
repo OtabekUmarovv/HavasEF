@@ -34,3 +34,42 @@ C:\Users\otaxo\source\repos\Havas\Havas\obj\Debug\net6.0\refint\Havas.dll
 C:\Users\otaxo\source\repos\Havas\Havas\obj\Debug\net6.0\Havas.pdb
 C:\Users\otaxo\source\repos\Havas\Havas\obj\Debug\net6.0\Havas.genruntimeconfig.cache
 C:\Users\otaxo\source\repos\Havas\Havas\obj\Debug\net6.0\ref\Havas.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Havas.exe
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Havas.deps.json
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Havas.runtimeconfig.json
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Havas.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Havas.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Humanizer.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Npgsql.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Havas.Data.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Havas.Domain.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Havas.Data.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Havas.Domain.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas\obj\Debug\net6.0\Havas.csproj.AssemblyReference.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas\obj\Debug\net6.0\Havas.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsC#\C# Projects\HavasEF\Havas\obj\Debug\net6.0\Havas.AssemblyInfoInputs.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas\obj\Debug\net6.0\Havas.AssemblyInfo.cs
+D:\ProjectsC#\C# Projects\HavasEF\Havas\obj\Debug\net6.0\Havas.csproj.CoreCompileInputs.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas\obj\Debug\net6.0\Havas.csproj.CopyComplete
+D:\ProjectsC#\C# Projects\HavasEF\Havas\obj\Debug\net6.0\Havas.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\obj\Debug\net6.0\refint\Havas.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\obj\Debug\net6.0\Havas.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas\obj\Debug\net6.0\Havas.genruntimeconfig.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas\obj\Debug\net6.0\ref\Havas.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\AutoMapper.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Havas.Service.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas\bin\Debug\net6.0\Havas.Service.pdb

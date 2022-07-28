@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ACwRiQZtWtrugt1VxqjeOapf/EODqjEPNfzq0LF5camdcc7rYoH4tAjvo+y5jDJ21C8DY2aCU4i/BbassMRhEA==",
+  "dgSpecHash": "OjfWrNvzQHh2enoHXRf1S5yLIiwcGsMZP2CuU1zZrzHjDhPoGX6nQCAZBEFWpN4goy7D/EDXXsHLwvBrqlnrpw==",
   "success": true,
   "projectFilePath": "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas\\Havas.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\otaxo\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\otaxo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\otaxo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\otaxo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "C:\\Users\\otaxo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\otaxo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0\\microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",

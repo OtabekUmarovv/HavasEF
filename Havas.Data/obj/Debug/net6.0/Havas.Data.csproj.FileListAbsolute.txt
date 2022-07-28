@@ -15,3 +15,20 @@ C:\Users\otaxo\source\repos\Havas\Havas.Data\bin\Debug\net6.0\Havas.Domain.dll
 C:\Users\otaxo\source\repos\Havas\Havas.Data\bin\Debug\net6.0\Havas.Domain.pdb
 C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\Havas.Data.csproj.CopyComplete
 C:\Users\otaxo\source\repos\Havas\Havas.Data\obj\Debug\net6.0\Havas.Data.genruntimeconfig.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\obj\Debug\net6.0\Havas.Data.csproj.AssemblyReference.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\obj\Debug\net6.0\Havas.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\obj\Debug\net6.0\Havas.Data.AssemblyInfoInputs.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\obj\Debug\net6.0\Havas.Data.AssemblyInfo.cs
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\obj\Debug\net6.0\Havas.Data.csproj.CoreCompileInputs.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\obj\Debug\net6.0\Havas.Data.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\obj\Debug\net6.0\refint\Havas.Data.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\obj\Debug\net6.0\Havas.Data.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\bin\Debug\net6.0\Havas.Data.deps.json
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\bin\Debug\net6.0\Havas.Data.runtimeconfig.json
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\bin\Debug\net6.0\Havas.Data.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\bin\Debug\net6.0\Havas.Data.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\bin\Debug\net6.0\Havas.Domain.dll
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\bin\Debug\net6.0\Havas.Domain.pdb
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\obj\Debug\net6.0\Havas.Data.csproj.CopyComplete
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\obj\Debug\net6.0\Havas.Data.genruntimeconfig.cache
+D:\ProjectsC#\C# Projects\HavasEF\Havas.Data\obj\Debug\net6.0\ref\Havas.Data.dll

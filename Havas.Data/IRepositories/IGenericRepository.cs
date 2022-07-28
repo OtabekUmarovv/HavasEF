@@ -8,13 +8,16 @@ using System.Threading.Tasks;
 
 namespace Havas.Data.IRepositories
 {
-    public interface IGenericRepository<T> where T : Auditable 
+    public interface IGenericRepository<T> : IDisposable
+        where T : Auditable 
     {
-        Task<T> UpdateAsync(T entity);
+        Task SaveAsync();
+        Task<T> CreateAsync(T entity);
         T Update(T entity);
-        Task<bool> Delete(Expression<Func<T, bool>> expression);
+        Task<bool> DeleteAsync(Expression<Func<T, bool>> expression);
         Task<T> GetAsync(Expression<Func<T, bool>> expression);
         IQueryable<T> GetAll(Expression<Func<T, bool>> expression);
 
+         
     }
 }

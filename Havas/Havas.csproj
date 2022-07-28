@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Havas.Data\Havas.Data.csproj" />
+    <ProjectReference Include="..\Havas.Service\Havas.Service.csproj" />
   </ItemGroup>
 
 </Project>
