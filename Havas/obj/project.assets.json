@@ -742,11 +742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\otaxo\\source\\repos\\Havas\\Havas\\Havas.csproj",
+      "projectUniqueName": "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas\\Havas.csproj",
       "projectName": "Havas",
-      "projectPath": "C:\\Users\\otaxo\\source\\repos\\Havas\\Havas\\Havas.csproj",
+      "projectPath": "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas\\Havas.csproj",
       "packagesPath": "C:\\Users\\otaxo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\otaxo\\source\\repos\\Havas\\Havas\\obj\\",
+      "outputPath": "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\otaxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -763,8 +763,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\otaxo\\source\\repos\\Havas\\Havas.Data\\Havas.Data.csproj": {
-              "projectPath": "C:\\Users\\otaxo\\source\\repos\\Havas\\Havas.Data\\Havas.Data.csproj"
+            "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas.Data\\Havas.Data.csproj": {
+              "projectPath": "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas.Data\\Havas.Data.csproj"
             }
           }
         }

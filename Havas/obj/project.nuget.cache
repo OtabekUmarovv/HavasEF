@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AuPMgZY1hm3KlENHHvvRcKa58hw0swTfFtXuZIGR2zjkjau8RKBlArVoZ0/M4LuROs/OoDfjgre2evQ4b2inXQ==",
+  "dgSpecHash": "ACwRiQZtWtrugt1VxqjeOapf/EODqjEPNfzq0LF5camdcc7rYoH4tAjvo+y5jDJ21C8DY2aCU4i/BbassMRhEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\otaxo\\source\\repos\\Havas\\Havas\\Havas.csproj",
+  "projectFilePath": "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas\\Havas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\otaxo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\otaxo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",

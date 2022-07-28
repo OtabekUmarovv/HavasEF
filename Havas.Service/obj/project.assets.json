@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\otaxo\\source\\repos\\Havas\\Havas.Service\\Havas.Service.csproj",
+      "projectUniqueName": "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas.Service\\Havas.Service.csproj",
       "projectName": "Havas.Service",
-      "projectPath": "C:\\Users\\otaxo\\source\\repos\\Havas\\Havas.Service\\Havas.Service.csproj",
+      "projectPath": "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas.Service\\Havas.Service.csproj",
       "packagesPath": "C:\\Users\\otaxo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\otaxo\\source\\repos\\Havas\\Havas.Service\\obj\\",
+      "outputPath": "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\otaxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
