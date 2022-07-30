@@ -12,15 +12,15 @@ namespace Havas.Domain.Entities.Suppleirs
     public class Suppleir : Auditable
     {
         [MinLength(2), MaxLength(64)]
-        public string CompanyName { get; set; }
+        public string? CompanyName { get; set; }
 
         [MinLength(2), MaxLength(64)]
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
         [MaxLength(16)]
-        public string Phone { get; set; }
-        public string Adress { get; set; }
-        public ICollection<Product> Products { get; set; }
+        public string? Phone { get; set; }
+        public string? Adress { get; set; }
+        public ICollection<Product>? Products { get; set; }
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using Havas.Domain.Entities.Products;
+﻿using Havas.Domain.Commons;
+using Havas.Domain.Entities.Products;
 using Havas.Service.DTOs.ProductDTOs;
 using Havas.Service.Interfaces;
 using System;
@@ -12,32 +13,32 @@ namespace Havas.Service.Services
 {
     public class ProductService : IProductService
     {
-        public Task<Product> CreateAsync(ProductCreation model)
+        public Task<BaseResponse<Product>> CreateAsync(ProductCreation model)
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> DeleteAsync(Expression<Func<Product, bool>> expression)
+        public Task<BaseResponse<bool>> DeleteAsync(Expression<Func<Product, bool>> expression)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Product>> GetAllAsync(int pageIndex, int pageSize, Expression<Func<Product, bool>> expression = null)
+        public Task<BaseResponse<IEnumerable<Product>>> GetAllAsync(Expression<Func<Product, bool>>? expression = null)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Product>> GetAllAsync(Expression<Func<Product, bool>> expression = null)
+        public Task<BaseResponse<IEnumerable<Product>>> GetAllAsync(Tuple<int, int> pagination, Expression<Func<Product, bool>>? expression = null)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Product> GetAsync(Expression<Func<Product, bool>> expression)
+        public Task<BaseResponse<Product>> GetAsync(Expression<Func<Product, bool>> expression)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Product> UpdateAsync(Guid Id, ProductCreation model)
+        public Task<BaseResponse<Product>> Update(ProductCreation model)
         {
             throw new NotImplementedException();
         }

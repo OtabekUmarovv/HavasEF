@@ -1,4 +1,5 @@
-﻿using Havas.Domain.Entities.Products;
+﻿using Havas.Domain.Commons;
+using Havas.Domain.Entities.Products;
 using Havas.Service.DTOs.ProductDTOs;
 using System;
 using System.Collections.Generic;
@@ -11,11 +12,11 @@ namespace Havas.Service.Interfaces
 {
     public interface ICategoryService
     {
-        Task<Category> CreateAsync(CategoryCreation model);
-        Task<Category> UpdateAsync(Guid Id, CategoryCreation model);
-        Task<Category> GetAsync(Expression<Func<Category, bool>> expression);
-        Task<bool> DeleteAsync(Expression<Func<Category, bool>> expression);
-        Task<IEnumerable<Category>> GetAllAsync(int pageIndex, int pageSize, Expression<Func<Category, bool>> expression = null);
-        Task<IEnumerable<Category>> GetAllAsync(Expression<Func<Category, bool>> expression = null);
+        Task<BaseResponse<Category>> CreateAsync(CategoryCreation model);
+        Task<BaseResponse<bool>> DeleteAsync(Expression<Func<Category, bool>> expression);
+        Task<BaseResponse<Category>> Update(CategoryCreation model);
+        Task<BaseResponse<Category>> GetAsync(Expression<Func<Category, bool>> expression);
+        Task<BaseResponse<IEnumerable<Category>>> GetAllAsync(Expression<Func<Category, bool>>? expression = null);
+        Task<BaseResponse<IEnumerable<Category>>> GetAllAsync(Tuple<int, int> pagination, Expression<Func<Category, bool>>? expression = null);
     }
 }

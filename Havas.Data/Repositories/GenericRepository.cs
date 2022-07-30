@@ -19,17 +19,19 @@ namespace Havas.Data.Repositories
         public GenericRepository()
         {
             _context = new HavasDBContext();
-            _dbSet = _context.Set<T>();
+            _dbSet = _context.Set<T>(); 
         }
 
-        public virtual Task<T> CreateAsync(T entity) =>
-             Task.FromResult(this._dbSet.Add(entity).Entity);
+
+
+        public async Task<T> CreateAsync(T entity)
+            => (await _dbSet.AddAsync(entity)).Entity;
 
         public async Task<bool> DeleteAsync(Expression<Func<T, bool>> expression)
         {
-            var entity = await GetAsync(expression);
+            var entity = await _dbSet.FirstOrDefaultAsync(expression);
 
-            if(entity is null)
+            if (entity is null)
                 return false;
 
             _dbSet.Remove(entity);
@@ -40,17 +42,16 @@ namespace Havas.Data.Repositories
         public void Dispose() => GC.SuppressFinalize(this);
 
 
+        public IQueryable<T> GetAll(Expression<Func<T, bool>> expression)
+            => expression is null ? _dbSet : _dbSet.Where(expression);
 
-        public IQueryable<T> GetAll(Expression<Func<T, bool>> expression) =>
-            expression is null ? _dbSet : _dbSet.Where(expression);
-        
 
-        public Task<T> GetAsync(Expression<Func<T, bool>> expression) =>
-            this._dbSet.FirstOrDefaultAsync(expression);
+        public Task<T?> GetAsync(Expression<Func<T, bool>> expression)
+            => _dbSet.FirstOrDefaultAsync(expression);
 
-        public Task SaveAsync() => this._context.SaveChangesAsync();
+        public Task SaveAsync() => _context.SaveChangesAsync();
 
-        public T Update(T entity) =>
-            this._dbSet.Update(entity).Entity;
+        public T Update(T entity)
+            => _dbSet.Update(entity).Entity;
     }
 }

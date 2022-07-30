@@ -782,8 +782,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 11.0.1",
-      "Havas.Data >= 1.0.0",
-      "Havas.Domain >= 1.0.0"
+      "Havas.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -815,9 +814,6 @@
           "projectReferences": {
             "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas.Data\\Havas.Data.csproj": {
               "projectPath": "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas.Data\\Havas.Data.csproj"
-            },
-            "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas.Domain\\Havas.Domain.csproj": {
-              "projectPath": "D:\\ProjectsC#\\C# Projects\\HavasEF\\Havas.Domain\\Havas.Domain.csproj"
             }
           }
         }

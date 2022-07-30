@@ -1,4 +1,5 @@
-﻿using Havas.Domain.Entities.Suppleirs;
+﻿using Havas.Domain.Commons;
+using Havas.Domain.Entities.Suppleirs;
 using Havas.Service.DTOs.SuppleirDTOs;
 using Havas.Service.Interfaces;
 using System;
@@ -12,32 +13,32 @@ namespace Havas.Service.Services
 {
     public class SuppleirService : ISuppleirService
     {
-        public Task<Suppleir> CreateAsync(SuppleirCreation model)
+        public Task<BaseResponse<Suppleir>> CreateAsync(SuppleirForCreationDto model)
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> DeleteAsync(Expression<Func<Suppleir, bool>> expression)
+        public Task<BaseResponse<bool>> DeleteAsync(Expression<Func<Suppleir, bool>> expression)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Suppleir>> GetAllAsync(int pageIndex, int pageSize, Expression<Func<Suppleir, bool>> expression = null)
+        public Task<BaseResponse<IEnumerable<Suppleir>>> GetAllAsync(Expression<Func<Suppleir, bool>>? expression = null)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Suppleir>> GetAllAsync(Expression<Func<Suppleir, bool>> expression = null)
+        public Task<BaseResponse<IEnumerable<Suppleir>>> GetAllAsync(Tuple<int, int> pagination, Expression<Func<Suppleir, bool>>? expression = null)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Suppleir> GetAsync(Expression<Func<Suppleir, bool>> expression)
+        public Task<BaseResponse<Suppleir>> GetAsync(Expression<Func<Suppleir, bool>> expression)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Suppleir> UpdateAsync(Guid Id, SuppleirCreation model)
+        public Task<BaseResponse<Suppleir>> Update(SuppleirForCreationDto model)
         {
             throw new NotImplementedException();
         }

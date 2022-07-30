@@ -319,8 +319,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "Havas.Data": "1.0.0",
-          "Havas.Domain": "1.0.0"
+          "Havas.Data": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Havas.Service.dll": {}
