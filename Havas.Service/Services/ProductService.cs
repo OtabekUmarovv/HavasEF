@@ -1,7 +1,11 @@
-﻿using Havas.Domain.Commons;
+﻿using AutoMapper;
+using Havas.Data.IRepositories;
+using Havas.Data.Repositories;
+using Havas.Domain.Commons;
 using Havas.Domain.Entities.Products;
 using Havas.Service.DTOs.ProductDTOs;
 using Havas.Service.Interfaces;
+using Havas.Service.Mappers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,32 +17,40 @@ namespace Havas.Service.Services
 {
     public class ProductService : IProductService
     {
-        public Task<BaseResponse<Product>> CreateAsync(ProductCreation model)
+        private readonly IMapper _mapper;
+        private readonly IProductRepository _productRepository;
+
+        public ProductService()
+        {
+            _productRepository = new ProductRepository();
+
+            _mapper = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile<MappingProfile>();
+            }).CreateMapper();
+        }
+
+        public Task<ProductForViewModel> CreateAsync(ProductForCreationDto model)
         {
             throw new NotImplementedException();
         }
 
-        public Task<BaseResponse<bool>> DeleteAsync(Expression<Func<Product, bool>> expression)
+        public Task<bool> DeleteAsync(Expression<Func<Product, bool>> expression)
         {
             throw new NotImplementedException();
         }
 
-        public Task<BaseResponse<IEnumerable<Product>>> GetAllAsync(Expression<Func<Product, bool>>? expression = null)
+        public Task<IEnumerable<ProductForViewModel>> GetAllAsync(Tuple<int, int> pagination, Expression<Func<Product, bool>>? expression = null)
         {
             throw new NotImplementedException();
         }
 
-        public Task<BaseResponse<IEnumerable<Product>>> GetAllAsync(Tuple<int, int> pagination, Expression<Func<Product, bool>>? expression = null)
+        public Task<ProductForViewModel> GetAsync(Expression<Func<Product, bool>> expression)
         {
             throw new NotImplementedException();
         }
 
-        public Task<BaseResponse<Product>> GetAsync(Expression<Func<Product, bool>> expression)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<BaseResponse<Product>> Update(ProductCreation model)
+        public Task<ProductForViewModel> UpdateAsync(Expression<Func<Product, bool>> expression, ProductForCreationDto model)
         {
             throw new NotImplementedException();
         }

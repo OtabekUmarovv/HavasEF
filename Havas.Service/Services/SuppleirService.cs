@@ -1,7 +1,11 @@
-﻿using Havas.Domain.Commons;
+﻿using AutoMapper;
+using Havas.Data.IRepositories;
+using Havas.Data.Repositories;
+using Havas.Domain.Commons;
 using Havas.Domain.Entities.Suppleirs;
 using Havas.Service.DTOs.SuppleirDTOs;
 using Havas.Service.Interfaces;
+using Havas.Service.Mappers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,32 +17,42 @@ namespace Havas.Service.Services
 {
     public class SuppleirService : ISuppleirService
     {
-        public Task<BaseResponse<Suppleir>> CreateAsync(SuppleirForCreationDto model)
+        private readonly IMapper _mapper;
+        private readonly ISuppleirRepository _suppleirRepository;
+
+        public SuppleirService()
+        {
+            _suppleirRepository = new SuppleirRepository();
+
+            _mapper = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile<MappingProfile>();
+            }).CreateMapper();
+        }
+
+
+
+        public Task<Suppleir> CreateAsync(SuppleirForCreationDto model)
         {
             throw new NotImplementedException();
         }
 
-        public Task<BaseResponse<bool>> DeleteAsync(Expression<Func<Suppleir, bool>> expression)
+        public Task<bool> DeleteAsync(Expression<Func<Suppleir, bool>> expression)
         {
             throw new NotImplementedException();
         }
 
-        public Task<BaseResponse<IEnumerable<Suppleir>>> GetAllAsync(Expression<Func<Suppleir, bool>>? expression = null)
+        public Task<IEnumerable<Suppleir>> GetAllAsync(Tuple<int, int> pagination, Expression<Func<Suppleir, bool>>? expression = null)
         {
             throw new NotImplementedException();
         }
 
-        public Task<BaseResponse<IEnumerable<Suppleir>>> GetAllAsync(Tuple<int, int> pagination, Expression<Func<Suppleir, bool>>? expression = null)
+        public Task<Suppleir> GetAsync(Expression<Func<Suppleir, bool>> expression)
         {
             throw new NotImplementedException();
         }
 
-        public Task<BaseResponse<Suppleir>> GetAsync(Expression<Func<Suppleir, bool>> expression)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<BaseResponse<Suppleir>> Update(SuppleirForCreationDto model)
+        public Task<Suppleir> Update(SuppleirForCreationDto model)
         {
             throw new NotImplementedException();
         }

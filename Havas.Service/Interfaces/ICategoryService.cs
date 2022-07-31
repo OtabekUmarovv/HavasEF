@@ -12,11 +12,10 @@ namespace Havas.Service.Interfaces
 {
     public interface ICategoryService
     {
-        Task<BaseResponse<Category>> CreateAsync(CategoryCreation model);
-        Task<BaseResponse<bool>> DeleteAsync(Expression<Func<Category, bool>> expression);
-        Task<BaseResponse<Category>> Update(CategoryCreation model);
-        Task<BaseResponse<Category>> GetAsync(Expression<Func<Category, bool>> expression);
-        Task<BaseResponse<IEnumerable<Category>>> GetAllAsync(Expression<Func<Category, bool>>? expression = null);
-        Task<BaseResponse<IEnumerable<Category>>> GetAllAsync(Tuple<int, int> pagination, Expression<Func<Category, bool>>? expression = null);
+        Task<CategoryForViewModel> CreateAsync(CategoryForCreationDto model);
+        Task<bool> DeleteAsync(Expression<Func<Category, bool>> expression);
+        Task<CategoryForViewModel> Update(CategoryForCreationDto model);
+        Task<CategoryForViewModel> GetAsync(Expression<Func<Category, bool>> expression);
+        Task<IEnumerable<CategoryForViewModel>> GetAllAsync(Tuple<int, int>? pagination = null, Expression<Func<Category, bool>>? expression = null);
     }
 }

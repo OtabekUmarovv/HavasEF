@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Havas.Service.DTOs.SuppleirDTOs
 {
-    public class SuppleirCreation
+    public class SuppleirForCreationDto
     {
         [Required, MaxLength(128), MinLength(2)]
         public string? CompanyName { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Havas.Service.DTOs.ProductDTOs
 {
-    public class CategoryCreation
+    public class CategoryForCreationDto
     {
         public string? Name { get; set; }
 

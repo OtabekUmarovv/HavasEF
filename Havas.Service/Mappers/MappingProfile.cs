@@ -15,9 +15,14 @@ namespace Havas.Service.Mappers
     {
         public MappingProfile()
         {
-            CreateMap<Suppleir, SuppleirCreation>().ReverseMap();
-            CreateMap<Product, ProductCreation>().ReverseMap();
-            CreateMap<Category, CategoryCreation>().ReverseMap();
+            CreateMap<SuppleirForCreationDto, Suppleir>();
+            CreateMap<Suppleir, SuppleirForViewModel>();
+
+            CreateMap<ProductForCreationDto, Product>();
+            CreateMap<Product, ProductForViewModel>();
+
+            CreateMap<CategoryForCreationDto, Category>();
+            CreateMap<Category, CategoryForViewModel>();
 
         }
     }

@@ -12,11 +12,10 @@ namespace Havas.Service.Interfaces
 {
     public interface ISuppleirService
     {
-        Task<BaseResponse<Suppleir>> CreateAsync(SuppleirCreation model);
-        Task<BaseResponse<bool>> DeleteAsync(Expression<Func<Suppleir, bool>> expression);
-        Task<BaseResponse<Suppleir>> Update(SuppleirCreation model);
-        Task<BaseResponse<Suppleir>> GetAsync(Expression<Func<Suppleir, bool>> expression);
-        Task<BaseResponse<IEnumerable<Suppleir>>> GetAllAsync(Expression<Func<Suppleir, bool>>? expression = null);
-        Task<BaseResponse<IEnumerable<Suppleir>>> GetAllAsync(Tuple<int, int> pagination, Expression<Func<Suppleir, bool>>? expression = null); 
+        Task<Suppleir> CreateAsync(SuppleirForCreationDto model);
+        Task<bool> DeleteAsync(Expression<Func<Suppleir, bool>> expression);
+        Task<Suppleir> Update(SuppleirForCreationDto model);
+        Task<Suppleir>  GetAsync(Expression<Func<Suppleir, bool>> expression);
+        Task<IEnumerable<Suppleir>> GetAllAsync(Tuple<int, int> pagination, Expression<Func<Suppleir, bool>>? expression = null); 
     }
 }

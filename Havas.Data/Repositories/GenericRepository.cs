@@ -39,8 +39,6 @@ namespace Havas.Data.Repositories
             return true;
         }
 
-        public void Dispose() => GC.SuppressFinalize(this);
-
 
         public IQueryable<T> GetAll(Expression<Func<T, bool>> expression)
             => expression is null ? _dbSet : _dbSet.Where(expression);
@@ -49,7 +47,9 @@ namespace Havas.Data.Repositories
         public Task<T?> GetAsync(Expression<Func<T, bool>> expression)
             => _dbSet.FirstOrDefaultAsync(expression);
 
-        public Task SaveAsync() => _context.SaveChangesAsync();
+        public Task SaveChangesAsync() => _context.SaveChangesAsync();
+        
+        public void Dispose() => GC.SuppressFinalize(this);
 
         public T Update(T entity)
             => _dbSet.Update(entity).Entity;

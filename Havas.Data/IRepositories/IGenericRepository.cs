@@ -11,11 +11,11 @@ namespace Havas.Data.IRepositories
     public interface IGenericRepository<T>  : IDisposable 
         where T : Auditable
     {
-        Task SaveAsync();
         Task<T> CreateAsync(T entity);
         Task<bool> DeleteAsync(Expression<Func<T, bool>> expression);
         Task<T?> GetAsync(Expression<Func<T, bool>> expression);
         T Update(T entity);
         IQueryable<T> GetAll(Expression<Func<T, bool>> expression);
+        Task SaveChangesAsync();
     }
 }
