@@ -14,7 +14,7 @@ namespace Havas.Service.Interfaces
     {
         Task<CategoryForViewModel> CreateAsync(CategoryForCreationDto model);
         Task<bool> DeleteAsync(Expression<Func<Category, bool>> expression);
-        Task<CategoryForViewModel> Update(CategoryForCreationDto model);
+        Task<CategoryForViewModel> Update(Guid id, CategoryForCreationDto model);
         Task<CategoryForViewModel> GetAsync(Expression<Func<Category, bool>> expression);
         Task<IEnumerable<CategoryForViewModel>> GetAllAsync(Tuple<int, int>? pagination = null, Expression<Func<Category, bool>>? expression = null);
     }

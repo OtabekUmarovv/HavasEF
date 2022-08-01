@@ -52,7 +52,8 @@ namespace Havas.Service.Services
             throw new NotImplementedException();
         }
 
-        public Task<Suppleir> Update(SuppleirForCreationDto model)
+
+        public Task<Suppleir> Update(Guid id, SuppleirForCreationDto model)
         {
             throw new NotImplementedException();
         }

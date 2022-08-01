@@ -35,9 +35,9 @@ namespace Havas.Service.Services
 
         public async Task<CategoryForViewModel> CreateAsync(CategoryForCreationDto model)
         {
-            var exist = await _categoryRepository.GetAsync(p => p.Name == model.Name);
+            var exist = await _categoryRepository.GetAsync(p => p.Name == model.Name && p.State != ItemState.Deleted);
 
-            if(exist is not null && exist.State != ItemState.Deleted) 
+            if(exist is not null) 
             {
                 throw new Exception("Category already exist!");
             }
@@ -64,7 +64,6 @@ namespace Havas.Service.Services
             return _mapper.Map<CategoryForViewModel>(exist);
         }
 
-
         public async Task<bool> DeleteAsync(Expression<Func<Category, bool>> expression)
         {
             var category = await _categoryRepository.GetAsync(expression);
@@ -76,7 +75,7 @@ namespace Havas.Service.Services
                     .Include("Products").FirstOrDefaultAsync(expression)).Products.ToList();
 
             for (int i = 0; i < products.Count(); i++)
-                products[i].State = ItemState.Deleted;
+                products[i].Delete();
 
             await _categoryRepository.SaveChangesAsync();
 
@@ -88,9 +87,6 @@ namespace Havas.Service.Services
                => Task.FromResult(_mapper.Map<IEnumerable<CategoryForViewModel>>(_categoryRepository
                    .GetAll(expression).Where(p => p.State != ItemState.Deleted).Include("Products")
                         .GetWithPagination(pagination)));
-
-            
-        
 
         public async Task<CategoryForViewModel> GetAsync(Expression<Func<Category, bool>> expression)
         {
@@ -108,17 +104,18 @@ namespace Havas.Service.Services
         {
             var categoryToUpdate = await _categoryRepository.GetAsync(p => p.Id == id);
 
-            if (category is null || category.State == ItemState.Deleted)
+            if (categoryToUpdate is null || categoryToUpdate.State == ItemState.Deleted)
                 throw new Exception("Category not found");
 
-            category  = _mapper.Map(model, category);
-            
-            category.Update();
-            
+            categoryToUpdate = _mapper.Map(model, categoryToUpdate);
 
+            categoryToUpdate.Update();
 
+            var result = _categoryRepository.Update(categoryToUpdate);
 
+            await _categoryRepository.SaveChangesAsync();
 
+            return _mapper.Map<CategoryForViewModel>(result);
         }
     }
 }

@@ -22,7 +22,9 @@ namespace Havas.Service.Mappers
             CreateMap<Product, ProductForViewModel>();
 
             CreateMap<CategoryForCreationDto, Category>();
+
             CreateMap<Category, CategoryForViewModel>();
+            CreateMap < IEnumerable < Category > , IEnumerable <CategoryForViewModel>> ();
 
         }
     }

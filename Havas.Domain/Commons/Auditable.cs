@@ -17,18 +17,18 @@ namespace Havas.Domain.Commons
 
         public void Create()
         {
-            CreatedAt = DateTime.Now;
+            CreatedAt = DateTime.UtcNow;
             State = ItemState.Created;
         }
         public void Update()
         {
-            UpdatedAt = DateTime.Now;
+            UpdatedAt = DateTime.UtcNow;
             State = ItemState.Updated;
         }
 
         public void Delete()
         {
-            UpdatedAt = DateTime.Now;
+            UpdatedAt = DateTime.UtcNow;
             State = ItemState.Deleted;
         }
 

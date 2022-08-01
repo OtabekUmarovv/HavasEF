@@ -3,6 +3,7 @@ using Havas.Data.IRepositories;
 using Havas.Data.Repositories;
 using Havas.Domain.Commons;
 using Havas.Domain.Entities.Products;
+using Havas.Domain.Enums;
 using Havas.Service.DTOs.ProductDTOs;
 using Havas.Service.Interfaces;
 using Havas.Service.Mappers;
@@ -30,9 +31,16 @@ namespace Havas.Service.Services
             }).CreateMapper();
         }
 
-        public Task<ProductForViewModel> CreateAsync(ProductForCreationDto model)
+        public async Task<ProductForViewModel> CreateAsync(ProductForCreationDto model)
         {
-            throw new NotImplementedException();
+            var exist = await _productRepository.GetAsync(p => p.Name == model.Name);
+        
+            if(exist is not null)
+            {
+                throw new Exception("Category already exist");
+            }
+
+
         }
 
         public Task<bool> DeleteAsync(Expression<Func<Product, bool>> expression)
@@ -50,7 +58,8 @@ namespace Havas.Service.Services
             throw new NotImplementedException();
         }
 
-        public Task<ProductForViewModel> UpdateAsync(Expression<Func<Product, bool>> expression, ProductForCreationDto model)
+
+        public Task<ProductForViewModel> UpdateAsync(Guid id, ProductForCreationDto model)
         {
             throw new NotImplementedException();
         }

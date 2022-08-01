@@ -14,7 +14,7 @@ namespace Havas.Service.Interfaces
     {
         Task<Suppleir> CreateAsync(SuppleirForCreationDto model);
         Task<bool> DeleteAsync(Expression<Func<Suppleir, bool>> expression);
-        Task<Suppleir> Update(SuppleirForCreationDto model);
+        Task<Suppleir> Update(Guid id, SuppleirForCreationDto model);
         Task<Suppleir>  GetAsync(Expression<Func<Suppleir, bool>> expression);
         Task<IEnumerable<Suppleir>> GetAllAsync(Tuple<int, int> pagination, Expression<Func<Suppleir, bool>>? expression = null); 
     }

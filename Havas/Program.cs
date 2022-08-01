@@ -3,7 +3,7 @@ using Havas.Service.DTOs.ProductDTOs;
 using Havas.Service.Interfaces;
 using Havas.Service.Services;
 
-CategoryForCreation category = new CategoryForCreation()
+CategoryForCreationDto category = new CategoryForCreationDto()
 {
     Name = "Mevalar",
     Description = "Tabiiy toza mevalar"
